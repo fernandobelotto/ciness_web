@@ -9,6 +9,7 @@ import '@fontsource/montserrat/600.css'
 import '@fontsource/montserrat/700.css'
 import '@fontsource/montserrat/800.css'
 import '@fontsource/montserrat/900.css'
+import NavBar from "./components/NavBar";
 
 const theme = extendTheme({
   fonts: {
@@ -34,7 +35,7 @@ const theme = extendTheme({
 
 export const App = () => (
   <ChakraProvider theme={theme}>
-    <ColorModeSwitcher justifySelf="flex-end" />
+    <NavBar />
     <Outlet />
   </ChakraProvider>
 );

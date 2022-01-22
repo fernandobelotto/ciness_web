@@ -31,7 +31,7 @@ export default function LoginScreen() {
       >
         <Stack spacing={8} mx={"auto"} maxW={"lg"} py={12} px={6}>
           <Stack align={"center"}>
-            <Logo theme={useColorModeValue('light', 'dark')} />
+            <Logo />
             {/* <Heading fontSize={"4xl"}>Sign in</Heading>
             <Text fontSize={"lg"} color={"brand.600"}>
               to enjoy all of our cool features ✌️
